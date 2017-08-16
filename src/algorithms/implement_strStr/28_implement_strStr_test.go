@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestSearchInsert(t *testing.T) {
+func TestStrStr(t *testing.T) {
 	haystack := "bonjour"
 	needle := "jour"
 	fmt.Println(strStr(haystack, needle))
