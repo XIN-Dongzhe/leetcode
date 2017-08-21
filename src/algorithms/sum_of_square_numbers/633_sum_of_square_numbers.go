@@ -6,7 +6,7 @@ import (
 
 // link https://leetcode.com/problems/subtree-of-another-tree/description/
 func judgeSquareSum(c int) bool {
-	mid := math.Sqrt(float64(c)/2)
+	mid := math.Sqrt(float64(c) / 2)
 
 	for i := 0.0; i <= mid; i++ {
 		j := math.Sqrt(float64(c) - math.Pow(i, 2))
