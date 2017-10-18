@@ -1,8 +1,8 @@
 package construct_string_from_binary_tree
 
 import (
-	"strconv"
 	"bytes"
+	"strconv"
 )
 
 // https://leetcode.com/problems/construct-string-from-binary-tree/description/
