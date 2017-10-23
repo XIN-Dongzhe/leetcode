@@ -1,8 +1,8 @@
 package reverse_linked_list
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestReverseList(t *testing.T) {
